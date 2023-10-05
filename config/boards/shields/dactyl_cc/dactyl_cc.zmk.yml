@@ -1,0 +1,8 @@
+file_format: "1"
+id: dactyl_cc
+Name: dactyl_cc
+type: shield
+url: https://github.com/WainingForests/zmk-xiao-flex/
+requires: [seeed_xiao]
+features:
+  - keys
