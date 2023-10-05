@@ -1,0 +1,16 @@
+if SHIELD_6x5_MANUFORM_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "6x5 Manuform"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_6x5_MANUFORM
+
+config ZMK_SPLIT
+    default y
+
+endif
