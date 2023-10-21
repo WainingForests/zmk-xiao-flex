@@ -73,8 +73,8 @@
 
         layer_3 {
             bindings = <
-&rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_TOG&rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_EFF&rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans           &trans           &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans           &trans           &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans           &trans           &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
