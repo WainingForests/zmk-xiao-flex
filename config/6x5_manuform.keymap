@@ -49,6 +49,8 @@
 &kp GRAVE         &kp EXCL           &kp AT             &kp HASH      &kp DOLLAR    &kp PRCNT       &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp TILDE
 &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &bootloader   &trans        &trans          &trans     &kp MINUS  &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE
 &trans            &trans             &trans             &trans        &trans        &trans          &trans     &trans     &trans           &trans    &trans    &trans
+&trans            &trans             &trans             &trans        &trans        &trans          &trans     &trans     &trans           &trans    &trans    &trans
+
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -80,18 +82,7 @@
 &trans           &trans           &trans           &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans           &trans           &trans           &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans           &trans           &trans           &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans            &trans             &trans             &trans        &trans        &trans          &trans     &trans     &trans           &trans    &trans    &trans
             >;
         };
     };
