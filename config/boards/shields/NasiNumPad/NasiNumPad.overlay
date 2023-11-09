@@ -27,10 +27,10 @@ RC(4,0) RC(4,1)         RC(4,3)
         diode-direction = "col2row";
 
         col-gpios
-            = <&xiao_d 6 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 7 GPIO_ACTIVE_HIGH>
+            = <&xiao_d 7 GPIO_ACTIVE_HIGH>
             , <&xiao_d 8 GPIO_ACTIVE_HIGH>
             , <&xiao_d 9 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 6 GPIO_ACTIVE_HIGH>
             ;
 
         row-gpios
