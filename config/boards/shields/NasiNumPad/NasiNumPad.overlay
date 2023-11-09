@@ -41,4 +41,23 @@ RC(4,0) RC(4,1)         RC(4,3)
             , <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
+
+	rt01: encoder_01 {
+        compatible = "alps,ec11";
+        label = "ENCODER 01";
+        a-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&xiao_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        resolution = <4>;
+		status = "okay";
+    };
+
+	sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&rt01>;
+    };
 };
+
+&rt01 {
+	status = "okay";
+};
+
