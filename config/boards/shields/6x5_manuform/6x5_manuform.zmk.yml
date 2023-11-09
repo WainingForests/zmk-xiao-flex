@@ -1,8 +1,8 @@
 file_format: "1"
-id: 6x5_manuform
-Name: 6x5_manuform
+id: NasiNumPad
+Name: NasiNumPad
 type: shield
-url: https://github.com/WainingForests/zmk-config-xiao/
+url: https://github.com/WainingForests/zmk-xiao-flex/
 requires: [seeed_xiao]
 features:
   - keys
