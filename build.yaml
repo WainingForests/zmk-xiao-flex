@@ -14,6 +14,5 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: NasiNumPad_left
-  - board: seeeduino_xiao_ble
-    shield: NasiNumPad_right
+    shield: NasiNumPad
+
