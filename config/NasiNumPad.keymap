@@ -15,11 +15,11 @@
 
         default_layer {
             bindings = <
-&kp B   &kp FSLH  &kp STAR  &kp MINUS
-&kp N7  &kp N8    &kp N9    &kp PLUS
+&mo 1   &kp FSLH  &kp STAR    &kp MINUS
+&kp N7  &kp N8    &kp N9      &kp PLUS
 &kp N4  &kp N5    &kp N6
 &kp N1  &kp N2    &kp N3
-&kp N0  &kp DOT   &kp A     &kp RET
+&kp N0  &kp DOT   &kp C_MUTE  &kp RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -31,7 +31,7 @@
 &rgb_ug RGB_TOG  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI
 &rgb_ug RGB_EFF  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD
 &trans           &trans           &rgb_ug RGB_SAI
-&trans           &trans           &rgb_ug RGB_SAD  &rgb_ug RGB_HUD
+&trans           &rgb_ug RGB_SAD  &sys_reset       &rgb_ug RGB_HUD
             >;
         };
     };
