@@ -15,7 +15,7 @@
 
         default_layer {
             bindings = <
-&mo 1   &kp FSLH  &kp STAR  &kp MINUS
+&kp B   &kp FSLH  &kp STAR  &kp MINUS
 &kp N7  &kp N8    &kp N9    &kp PLUS
 &kp N4  &kp N5    &kp N6
 &kp N1  &kp N2    &kp N3
@@ -31,7 +31,7 @@
 &rgb_ug RGB_TOG  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI
 &rgb_ug RGB_EFF  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD
 &trans           &trans           &rgb_ug RGB_SAI
-&trans           &rgb_ug RGB_SAD                   &rgb_ug RGB_HUD
+&trans           &rgb_ug RGB_SAD  &rgb_ug RGB_HUD
             >;
         };
     };
