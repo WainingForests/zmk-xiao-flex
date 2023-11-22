@@ -1,8 +1,0 @@
-file_format: "1"
-id: 6x5_manuform
-Name: 6x5_manuform
-type: shield
-url: https://github.com/WainingForests/zmk-config-xiao/
-requires: [seeed_xiao]
-features:
-  - keys
